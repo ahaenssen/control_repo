@@ -5,7 +5,6 @@ node default {
     owner   => 'root',
   }
   file {'root/readme':
-    ensure => file;
     owner => 'root',
     }
 }
